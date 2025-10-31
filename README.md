@@ -5,6 +5,12 @@ This guide shows how to set up RFID-Device-01 to send data to AWS IoT, forward m
 ## Architecture Overview
 - RFID Device → AWS IoT Core → IoT Rule → Lambda → API Gateway WebSocket → Browser Dashboard
 
+  <img width="1260" height="599" alt="image" src="https://github.com/user-attachments/assets/d9a796bb-8daa-4b67-a7e7-129f65ad6e00" />
+
+  <img width="1249" height="628" alt="image" src="https://github.com/user-attachments/assets/173314b1-f78f-46d4-a61a-74edabbba4bb" />
+
+
+
 ## Prerequisites
 - AWS account with permissions for IoT Core, Lambda, DynamoDB, API Gateway
 - Windows PC (paths use `D:\IOTCoreCert\`)
